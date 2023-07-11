@@ -1,0 +1,111 @@
+body {
+    font-family: 'Open Sans','sans-serif';
+    background-color: whitesmoke;
+}
+
+#container {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-FXNi-Jf1SPcEVJLmaZ-Kz0q025Ve4z6uSg&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+}
+
+#calculator { 
+    width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 40px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#result {
+    height: 120px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: darkgreen;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    font-size: 30px;
+    color: purple;
+    margin: 10px 10px;
+}
+
+#keyboard {
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.operator,.number,.empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.number, button:nth-child(1), button:nth-child(2),  button:nth-child(3) {
+    background-color: gainsboro;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 14px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+
+button:nth-child(17) {
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+button:nth-child(19) {
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d92e0;
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #9477af;
+}
